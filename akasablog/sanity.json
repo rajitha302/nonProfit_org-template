@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "project": {
+    "name": "akasa-blog"
+  },
+  "api": {
+    "projectId": "gan98wdg",
+    "dataset": "production"
+  },
+  "plugins": ["@sanity/base", "@sanity/default-layout", "@sanity/default-login", "@sanity/desk-tool", "@sanity/dashboard"],
+  "env": {
+    "development": {
+      "plugins": ["@sanity/vision"]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
