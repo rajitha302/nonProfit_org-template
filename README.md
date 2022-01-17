@@ -7,8 +7,8 @@ run `yarn start` on project root to start the client
 
 # Starting sanity studio
 
-1) replace `sanity project id` inside `.env` && `sanity.json` with your sanity project id.
-2) run `cd akasablog && yarn start or sanity start`
+1) replace `sanity project id` inside `.env` & `sanity.json` with your sanity project id.
+2) run `cd akasablog && yarn start` or `cd akasablog && sanity start`
 
 # Project preview
 
